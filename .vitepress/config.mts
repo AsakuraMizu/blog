@@ -7,6 +7,17 @@ const theme = getThemeConfig({
   },
   themeColor: 'el-red',
   author: '朝倉みず',
+  comment: {
+    type: 'giscus',
+    options: {
+      repo: 'AsakuraMizu/blog',
+      repoId: 'R_kgDONlBY7g',
+      category: 'Comments',
+      categoryId: 'DIC_kwDONlBY7s4ClrOA',
+      inputPosition: 'top',
+    },
+    mobileMinify: true,
+  },
 });
 
 export default defineConfig({
