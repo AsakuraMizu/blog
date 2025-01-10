@@ -5,7 +5,7 @@ const theme = getThemeConfig({
     version: true,
     copyright: '朝倉みず',
   },
-  themeColor: 'el-red',
+  themeColor: 'el-green',
   author: '朝倉みず',
   comment: {
     type: 'giscus',
@@ -31,7 +31,7 @@ export default defineConfig({
   cleanUrls: true,
   themeConfig: {
     outline: {
-      level: [2, 3],
+      level: 'deep',
       label: '目录',
     },
     returnToTopLabel: '回到顶部',
@@ -46,5 +46,17 @@ export default defineConfig({
         link: 'https://github.com/AsakuraMizu',
       },
     ],
+  },
+  markdown: {
+    container: {
+      infoLabel: '信息',
+      noteLabel: '注意',
+      tipLabel: '提示',
+      warningLabel: '警告',
+      dangerLabel: '危险',
+      detailsLabel: '详细信息',
+      importantLabel: '重要',
+      cautionLabel: '小心',
+    },
   },
 });
