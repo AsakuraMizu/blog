@@ -1,5 +1,6 @@
 ---
-description:
+description: 全网最全 CHUNITHM 联机教程
+hiddenCover: true
 tags:
   - chunithm
   - p2p
